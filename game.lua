@@ -8,7 +8,7 @@ LUPI_HARDWARE_DEBUG_OVERLAY = true
 LUPI_HARDWARE_DEBUG_OVERLAY_RECT = { x0 = 0, y0 = 0, x1 = 164, y1 = 270, col = 2 }
 LUPI_HARDWARE_DEBUG_OVERLAY_ALPHA = 0.5
 
-require "palette-debug"
+require "palette"
 
 -- Paleta usada pela interface do Debug Lab.
 -- A paleta do Sonic NAO e sobrescrita durante ui.spr().

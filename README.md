@@ -9,7 +9,6 @@ não tenho um Lupi para testar e arriscar.
 
 ## Conteudo:
 - game.lua
-- palette-debug.lua
 
 ### Tela de Seleção de testes
 <img width="1184" height="689" alt="image" src="https://github.com/user-attachments/assets/d86e29aa-26f2-486e-8b13-c39a869399d0" />
@@ -26,11 +25,7 @@ não tenho um Lupi para testar e arriscar.
 ## Instalacao:
 Funciona no mesmo fluxo de um jogo lupi comum.
 
-1. Coloque game.lua e palette-debug.lua na raiz do pacote do jogo.
+1. Coloque game.lua na raiz do pacote do jogo.
 2. copie vários sprites para a pasta sprites, vários png para o teste dos sprites.
 3. em lupi-codec, você vai usar lua run.lua pasta-jogo/ pasta-release/
 4. o conteúdo de releases, você compacta .zip e renomeia para .lupi
-
-Paleta:
-- Os primeiros 43 valores de Palette sao a paleta do Sonic, preservada na ordem e nos valores exatos fornecidos. -- não funcionou para sonic ter as cores corretas, todos os sprites estão de cor incorreta.
-- Depois entram as cores unicas da paleta original do Debug, mantendo a ordem relativa em que aparecem nela.
